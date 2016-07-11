@@ -1,0 +1,15 @@
+Pasos seguidos:
+
+1. creado con el generate modelo user y controlador de user.
+  > sails generate user
+2. llenado el usercontroller con el código básico
+3. en config/policies.js añado '*': 'flash' y también api/policies/flash.js
+
+
+
+
+
+
+TODO:
+desplegar en heroku
+http://jorgecasar.github.io/blog/desarrollar-webapps-realtime-creacion/

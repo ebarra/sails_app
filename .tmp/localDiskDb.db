@@ -1,0 +1,50 @@
+{
+  "data": {
+    "user": [
+      {
+        "nombre": "aadadf",
+        "sexo": "dd",
+        "_csrf": "null",
+        "id": 1,
+        "createdAt": "2016-07-11T16:15:44.153Z",
+        "updatedAt": "2016-07-11T16:15:51.404Z"
+      },
+      {
+        "nombre": "ddfdf",
+        "sexo": "ff",
+        "_csrf": "null",
+        "id": 2,
+        "createdAt": "2016-07-11T16:16:03.420Z",
+        "updatedAt": "2016-07-11T16:16:06.804Z"
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "nombre": {
+        "type": "string",
+        "unique": true
+      },
+      "sexo": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 2
+    }
+  }
+}
